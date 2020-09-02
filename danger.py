@@ -1,0 +1,47 @@
+import asyncio
+import re
+import time
+from time import sleep
+from userbot import CMD_HELP, ZALG_LIST
+from userbot.events import register
+
+@register(outgoing=True, pattern='^.nl(?: |$)(.*)')
+async def typewriter(typew):
+ message = typew.pattern_match.group(1)
+ await typew.edit("Кхм-кхм...")
+ sleep(1)
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+ sleep(0.05) 
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+ sleep(0.05) 
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+      sleep(0.05)
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+ sleep(0.05) 
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+ sleep(0.05) 
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+      sleep(0.05)
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+ sleep(0.05) 
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(0.05) 
+ await typew.edit("❗️ВНИМАНИЕ!❗️")
+ sleep(0.05) 
+ await typew.edit("⚠️ВНИМАНИЕ!⚠️")
+ sleep(1) 
+ await typew.edit("Спасибо за внимание.")
